@@ -1,8 +1,8 @@
 /*Media queries*/
 
 .mediaqueries {
-  width: 768px;
-  height: 500px;
+  width: 985px;
+  height: 800px;
   background-color: aqua;
 }
 @media (max-width: 768px) {
@@ -12,6 +12,14 @@
     background-color: beige;
   }
 
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .mediaqueries {
+    width: 500px;
+    height: 650px;
+    background-color: azure;
+  }
 }
 
 body {
